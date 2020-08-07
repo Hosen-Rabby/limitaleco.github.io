@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+
+
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+#top{
+	background: #141414;
+	position: relative;
+}
+
+.logo{
+	color: #fff;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.menu{
+	line-height: 40px;
+	margin-bottom: 0;
+}
+.menu li{
+	list-style: none;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.btn{
+	background-color: orange;
+	border-radius: 0;
+	line-height: 25px;
+}
+
+#banner{
+	background: url('../img/s3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	letter-spacing: 1px;
+}
+
+
+.ban-prop{
+	position: absolute;
+	/*top: 20%;*/
+	margin-top: 45%;
+	color: #fff;
+}
+
+
+.banner-text{
+	font-size: 65px;
+	color: #fff;
+}
+
+.banner-para{
+	font-weight: 300;
+}
+
+.button{
+	margin: 30px 30px 30px 0;
+}
+
+.btn-free, .btn-prices{
+	font-size: 20px;
+	border: 3px solid orange;
+}
+
+.btn-free{
+	background: orange;
+	padding: 5px 30px;
+	overflow: hidden;
+	margin-right: 20px;
+	color: #000;
+}
+
+.btn-prices{
+	background: #000;
+	padding: 5px 70px;
+	color: orange;
+}
+
+
+.ban-prop span{
+	font-weight: 200;
+	word-spacing: 3px;
+}
+
+
+/* workout */
+
+#work-out{
+	background: #2189E6;
+}
+
+.work-headline{
+	margin: 40px 0;
+	color: #2C3135;
+	font-size: 40px;
+}
+
+
+.icon{
+	margin: 0 20px 30px 0;
+}
+
+
+
+.wort-text{
+	color: #2F3035;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 30px;
+}
